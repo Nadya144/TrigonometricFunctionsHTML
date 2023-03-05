@@ -1,0 +1,134 @@
+.buttons{
+    min-width: 99%;
+    height: 79%;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.func-basis{
+    display: flex;
+
+    flex-grow: 1;
+}
+
+
+.func-non-basis{
+    display: flex;
+
+    flex-grow: 1;
+
+    justify-content: space-between;
+}
+
+.func-button{
+
+    margin: 1vh;
+
+    border-style: solid;
+    border-radius: 13%;
+    border-color: rgb(189, 189, 189);
+    border-width: 3px;
+    flex-grow: 1;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande'; 
+    font-size: 7.5vh;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0);
+
+}
+
+.func-button#sin{
+    background-image: url(img/sin.png);
+    background-size: 100% 100%;
+}
+.func-button#sin:hover{
+    background-image: none;
+    background-color: #D7B8E9;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.func-button#cos{
+    background-image: url(img/cos.png);
+    background-size: 100% 100%;
+}
+.func-button#cos:hover{
+    background-image: none;
+    background-color: #D7B8E9;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.func-button#tan{
+    background-image: url(img/tan.png);
+    background-size: 100% 100%;
+}
+.func-button#tan:hover{
+    background-image: none;
+    background-color: #D7B8E9;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.func-button#ctg{
+    background-image: url(img/ctg.png);
+    background-size: 100% 100%;
+}
+.func-button#ctg:hover{
+    background-image: none;
+    background-color: #D7B8E9;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.func-button#arcsin{
+    background-image: url(img/arcsin.png);
+    background-size: 100% 100%;
+}
+.func-button#arcsin:hover{
+    background-image: none;
+    background-color: #D7B8E9;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.func-button#arccos{
+    background-image: url(img/arccos.png);
+    background-size: 100% 100%;
+}
+.func-button#arccos:hover{
+    background-image: none;
+    background-color: #D7B8E9;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.func-button#arctan{
+    background-image: url(img/arctan.png);
+    background-size: 100% 100%;
+}
+.func-button#arctan:hover{
+    background-image: none;
+    background-color: #D7B8E9;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.func-button#arcctg{
+    background-image: url(img/arcctg.png);
+    background-size: 100% 100%;
+}
+.func-button#arcctg:hover{
+
+    background-image: none;
+    background-color: #D7B8E9;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
