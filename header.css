@@ -1,0 +1,17 @@
+.header{
+    min-width: 99%;
+    height: 10%;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.main-page-text{
+    flex: 5;
+
+    text-align: center;
+}
+
+.menu{
+    flex: 1;
+}
